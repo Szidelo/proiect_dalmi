@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <img src="aboutme.jpg" alt="picture about me">
+        <a href="index.html">Home</a><br>
+        <a href="homeworks.html">Homeworks</a>
+    </nav>
+    <main>
+        <h1>Contact</h1>
+        <div id="output">
+            <fieldset style="background-color: rgb(165, 236, 236);">
+                <legend>Please write your name, email adress and a message and I'll get back to you as soon ass possible.</legend>
+                <label>Name:</label>
+                <input type="text"><br><br>
+                <label>Email:</label>
+                <input type="text"><br><br>
+                <label>Message:</label>
+                <input type="text" class="text"><br><br>
+                <input type="button" value="Send Message" onclick="printMessage()"> 
+            </fieldset>
+        </div>
+        <p>If you want to know me via social media, click on the following buttons:<br></p>
+        <div class="media">
+            <img src="linkedin.jpg" id="linkedin">
+            <img src="facebook.jpg" id="facebook">
+            <img src="insta.jpg" id="instagram">
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
